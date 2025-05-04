@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Sidebar } from './Sidebar';
+import Sidebar from './sidebar';
 import { Navbar } from './Navbar';
 import { Footer } from './Footer';
 import { useIsMobile } from '@/hooks/use-mobile';
