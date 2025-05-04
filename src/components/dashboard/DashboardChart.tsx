@@ -15,7 +15,8 @@ import {
   Bar
 } from 'recharts';
 
-const data = [
+// Default chart data
+const defaultChartData = [
   { name: 'Jan', value: 400, value2: 240 },
   { name: 'Feb', value: 300, value2: 139 },
   { name: 'Mar', value: 200, value2: 980 },
@@ -39,7 +40,7 @@ export const DashboardChart = ({
   type = 'line',
   title,
   subtitle,
-  data = data,
+  data = defaultChartData,
   categories = ['value', 'value2'],
   colors = ['#2361CE', '#10B981'],
   className,
